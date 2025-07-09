@@ -1,3 +1,7 @@
+import bird1 from '../assets/photo-1552728089-57bdde30beb3.avif';
+import bird2 from '../assets/photo-1666218863086-329c0a7f2f7d.avif';
+import bird3 from '../assets/istockphoto-2124787403-1024x1024.jpg';
+import bird4 from '../assets/images (2).jpeg';
 import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -14,14 +18,12 @@ const FeatureBird = () => {
         </p>
       </div>
 
-      {/* Card Container */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 p-6 mt-10">
-        {/* Card 1 */}
         <div className="shadow-md rounded-md overflow-hidden">
           <div className="h-56 overflow-hidden">
             <img
               className="w-full h-full object-cover object-center"
-              src="/src/assets/photo-1552728089-57bdde30beb3.avif"
+              src={bird1}
               alt="Blue and Gold Macaw"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
@@ -40,7 +42,6 @@ const FeatureBird = () => {
             <p className="text-[#4B5563] text-md" data-aos="fade-left">
               Friendly, hand-raised macaw with vibrant plumage. Great talker!
             </p>
-
             <div className="flex justify-between">
               <div className="flex items-center space-x-2 mt-2">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#4B5563] text-sm" />
@@ -48,22 +49,18 @@ const FeatureBird = () => {
                   New York
                 </p>
               </div>
-              <button
-                className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm"
-                data-aos="fade-right"
-              >
+              <button className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">
                 View Details
               </button>
             </div>
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="shadow-md rounded-md overflow-hidden">
           <div className="h-56 overflow-hidden">
             <img
               className="w-full h-full object-cover object-center"
-              src="/src/assets/photo-1666218863086-329c0a7f2f7d.avif"
+              src={bird2}
               alt="Sulphur-Crested Cockatoo"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
@@ -82,7 +79,6 @@ const FeatureBird = () => {
             <p className="text-[#4B5563] text-md" data-aos="fade-left">
               Playful and affectionate cockatoo with impressive yellow crest.
             </p>
-
             <div className="flex justify-between">
               <div className="flex items-center space-x-2 mt-2">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#4B5563] text-sm" />
@@ -90,22 +86,18 @@ const FeatureBird = () => {
                   Los Angeles
                 </p>
               </div>
-              <button
-                className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm"
-                data-aos="fade-right"
-              >
+              <button className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">
                 View Details
               </button>
             </div>
           </div>
         </div>
 
-        {/* Card 3 */}
         <div className="shadow-md rounded-md overflow-hidden">
           <div className="h-56 overflow-hidden">
             <img
               className="w-full h-full object-cover object-center"
-              src="/src/assets/istockphoto-2124787403-1024x1024.jpg"
+              src={bird3}
               alt="Gold Macaw"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
@@ -124,7 +116,6 @@ const FeatureBird = () => {
             <p className="text-[#4B5563] text-md" data-aos="fade-left">
               Beautiful pair of breeding zebra finches with melodious songs.
             </p>
-
             <div className="flex justify-between">
               <div className="flex items-center space-x-2 mt-2">
                 <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#4B5563] text-sm" />
@@ -132,22 +123,18 @@ const FeatureBird = () => {
                   Chicago
                 </p>
               </div>
-              <button
-                className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm"
-                data-aos="fade-right"
-              >
+              <button className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">
                 View Details
               </button>
             </div>
           </div>
         </div>
 
-        {/* Card 4 */}
         <div className="shadow-md rounded-md overflow-hidden">
           <div className="h-56 overflow-hidden">
             <img
               className="w-full h-full object-cover object-center"
-              src="/src/assets/images (2).jpeg"
+              src={bird4}
               alt="Yellow Canary"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
@@ -166,18 +153,14 @@ const FeatureBird = () => {
             <p className="text-[#4B5563] text-md" data-aos="fade-left">
               Vibrant male canary with exceptional singing ability. Perfect for beginners.
             </p>
-
             <div className="flex justify-between">
               <div className="flex items-center space-x-2 mt-2">
-               <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#4B5563] text-sm" />
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="text-[#4B5563] text-sm" />
                 <p className="text-[#4B5563] text-sm" data-aos="fade-left">
                   Miami
                 </p>
               </div>
-              <button
-                className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm"
-                data-aos="fade-right"
-              >
+              <button className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">
                 View Details
               </button>
             </div>
@@ -185,7 +168,6 @@ const FeatureBird = () => {
         </div>
       </div>
 
-      {/* View All Button */}
       <div className="text-center mt-6">
         <button className="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-lg">
           View All Birds →
