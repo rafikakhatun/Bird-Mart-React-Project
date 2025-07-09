@@ -1,4 +1,7 @@
 import React from 'react';
+import customer1 from '../assets/photo-1500648767791-00dcc994a43e.avif';
+import customer2 from '../assets/photo-1534528741775-53994a69daeb.avif';
+import customer3 from '../assets/photo-1494790108377-be9c29b29330.avif';
 
 const CustomerSection = () => {
   return (
@@ -50,7 +53,7 @@ const CustomerSection = () => {
           </p>
           <div className="flex items-start space-x-3">
             <img
-              src="/src/assets/photo-1500648767791-00dcc994a43e.avif"
+              src={customer1}
               alt="photo"
               className="w-12 h-12 object-cover rounded-full"
             />
@@ -83,7 +86,7 @@ const CustomerSection = () => {
           </p>
           <div className="flex items-start space-x-3">
             <img
-              src="/src/assets/photo-1534528741775-53994a69daeb.avif"
+              src={customer2}
               alt="photo"
               className="w-12 h-12 object-cover rounded-full"
             />
@@ -117,7 +120,7 @@ const CustomerSection = () => {
           </p>
           <div className="flex items-start space-x-3">
             <img
-              src="/src/assets/photo-1494790108377-be9c29b29330.avif"
+              src={customer3}
               alt="photo"
               className="w-12 h-12 object-cover rounded-full"
             />
