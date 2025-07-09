@@ -12,7 +12,7 @@ const Hero = () => {
                 backgroundImage: `url(${bgImage})`, // ✅ imported image used here
             }}
         >
-            <div className="text-center mt-32 space-y-5">
+            <div className="text-center mt-32 space-y-6">
                 <h1
                     className="text-3xl font-semibold md:text-5xl"
                     data-aos="fade-down-left"
