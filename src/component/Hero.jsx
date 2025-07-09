@@ -1,14 +1,15 @@
 import React from 'react';
+import bgImage from '../assets/what-is-the-spiritual-meaning-of-a-cardinal-51bea77a.jpg'; // ✅ image import
 
 const Hero = () => {
     return (
         <section
-            className=" py-24 px-4 text-white bg-cover bg-center"
+            className="py-24 px-4 text-white bg-cover bg-center"
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             style={{
-                backgroundImage: `url("/src/assets/what-is-the-spiritual-meaning-of-a-cardinal-51bea77a.jpg")`,
+                backgroundImage: `url(${bgImage})`, // ✅ imported image used here
             }}
         >
             <div className="text-center mt-32 space-y-5">
