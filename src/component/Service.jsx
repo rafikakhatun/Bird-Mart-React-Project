@@ -1,3 +1,4 @@
+import birdSeller from '../assets/photo-1555169062-013468b47731.avif';
 import { faCertificate, faStethoscope, faTruck } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -18,8 +19,6 @@ const Service = () => {
         {/* Service 1 */}
         <div className="p-8 text-center shadow-md rounded-md bg-[#F9FAFB] space-y-6">
           <FontAwesomeIcon icon={faCertificate} className="text-blue-500 text-3xl" />
-
-
           <h1 className="text-xl font-semibold" data-aos="fade-right">Verified Breeders</h1>
           <p
             className="text-[#4B5563]"
@@ -83,7 +82,7 @@ const Service = () => {
           {/* Image */}
           <div className="md:w-1/2">
             <img
-              src="/src/assets/photo-1555169062-013468b47731.avif"
+              src={birdSeller}
               alt="Bird Seller"
               className="w-full h-full object-cover"
               data-aos="flip-left"
